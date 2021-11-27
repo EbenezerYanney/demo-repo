@@ -6,6 +6,56 @@ body{
 
 width: 250px;
 height:400px;
+margin: 80px auto;
+background: rg(214, 214,214);
+box-shadow: 5px 5px 10px #dfc88d,-5px -5px 10px#dfc88d ;
+border-radius: 10px;
 
+}
+.cal-box{
+    width:200px;
+    margin: 200px auto;
+}
 
+#display{
+    border:none;
+    outline: none;
+    color:black;
+    text-align: right;
+    font-weight: 600px;
+    padding: 15px;
+    margin:30px 0 20px 0px;
+    background: transparent;
+    box-shadow: inset 2px 2px 5px #babecc;
+}
+.button{
+    margin: 15px 0 0 5px;
+    width: 42px;
+    height:42px;
+    font-weight: bold;
+    cursor:pointer;
+    border-radius: 8px;
+    /* background: radial-gradient(rgb(250, 252, 132),rgb(236, 208, 69)); */
+    background: radial-gradient(ellipse at top, #f5e97f, transparent),
+            radial-gradient(ellipse at bottom, #c6ff7b, transparent);
+            box-shadow: 5px 5px 10px #f8a7c9,-5px -5px 10px #fadba2 ;
+            display: inline-block;
+}
+/* When you want to mix two colors  on a background you use ra
+radial gradient so the example above signifies the mixing 
+of two colors in a circle form on a button to bring out 
+a colourful outlook on the background */
+
+.button:active{
+    box-shadow: inset 1px 1px 2px black -1px -1px 2px black;
+}
+/* The inset value makes objects looked pressed or impressed into a surface. */
+
+.clearButton{
+    background: red;
+    color:seashell
+}
+.mathButton{
+    background: black;
+    color:seashell;
 }
